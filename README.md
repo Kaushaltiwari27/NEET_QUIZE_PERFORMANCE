@@ -1,10 +1,10 @@
-## NEET Testline Quiz Performance Analysis and Rank Prediction
+#### NEET Testline Quiz Performance Analysis and Rank Prediction
 
-Overview
+ ## Overview
 
 This project analyzes student quiz performance and predicts their NEET rank based on historical quiz data. It also provides insights into weak topics, improvement trends, and potential college predictions.
 
-Features
+## Features
 
 Data Fetching: Retrieves quiz data from given API endpoints.
 
@@ -14,7 +14,7 @@ Rank Prediction: Uses a machine learning model to estimate a student's NEET rank
 
 College Prediction (Bonus): Suggests potential colleges based on predicted rank.
 
-Data Sources
+## Data Sources
 
 The solution fetches data from the following endpoints:
 
@@ -24,7 +24,7 @@ Quiz Submission Data: Quiz Submission Endpoint
 
 Historical Quiz Data: Historical Quiz Endpoint
 
-Technologies Used
+## Technologies Used
 
 Python
 
@@ -50,7 +50,7 @@ Run the script:
 
 python analyze_quiz.py
 
-How It Works
+## How It Works
 
 Fetch Data: Retrieves quiz and historical performance data.
 
@@ -60,7 +60,7 @@ Predict Rank: Uses Linear Regression to estimate NEET rank.
 
 Predict College: Suggests a college based on the rank.
 
-Output
+## Output
 
 The script prints the following:
 
@@ -72,7 +72,7 @@ Predicted NEET rank
 
 Suggested college based on the rank
 
-Future Improvements
+## Future Improvements
 
 Implement a more advanced model (e.g., Random Forest, Neural Networks).
 
@@ -80,6 +80,6 @@ Enhance accuracy with additional features like time taken per question.
 
 Develop a web dashboard for better data visualization.
 
-License
+## License
 
 This project is open-source and available under the MIT License.
